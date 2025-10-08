@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+pip-wheel-metadata/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.egg-info/
+.installed.txt
+htmlcov/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Django specific
+*.log
+db.sqlite3
+media/
+static_cdn/ # If you serve static files from a CDN
+local_settings.py # Or any other file containing sensitive local configurations
+
+# FastAPI specific
+.env # If you use a .env file for environment variables
